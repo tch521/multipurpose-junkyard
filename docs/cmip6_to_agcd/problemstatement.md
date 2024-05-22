@@ -13,6 +13,8 @@ There are existing efforts to "downscale" CMIP6 data using physics-based approac
 
 ![Charts showing days over 35°C over time for Australian cities](./images/TX_g35.png "Days over 35°C")
 
+{% include image-gallery.html folder="/uploads/album" %}
+
 ## Problem Statement
 
  Whenever plotting metric values over time, a significant challenge arises from the discrepancy between the historical AGCD data and the CMIP6 model data, leading to a discontinuity at the transition year (2024). This is primarily due to the different spatial resolutions of the datasets; the larger area covered by CMIP6 pixels tends to average out extreme values, which is problematic for our focus on weather extremes. While this information is fundamentally not present in the climate models, we hope to artificially reconstruct it using some kind of mathematical model with the CMIP6 data (and potentially some other relevant data) as exogenous variables and the AGCD variable or specific metrics as the endogenous variables.
