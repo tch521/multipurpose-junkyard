@@ -13,7 +13,7 @@ There are existing efforts to "downscale" CMIP6 data using physics-based approac
 
 ![Charts showing days over 35°C over time for Australian cities](./images/TX_g35.png "Days over 35°C")
 
-{% include image-gallery.html folder="/uploads/album" %}
+{% include image-gallery.html folder="/cmip6_to_agcd/images" %}
 
 ## Problem Statement
 
