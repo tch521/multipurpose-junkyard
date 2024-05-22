@@ -1,6 +1,8 @@
+---
 layout: page
 title: "Test title"
 permalink: /cmip6_to_agcd_problem_statement
+---
 
 # Research Problem: Estimating High-Resolution Weather Metrics from Climate Model Data
 
