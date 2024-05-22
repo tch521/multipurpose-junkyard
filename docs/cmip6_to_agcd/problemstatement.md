@@ -1,9 +1,9 @@
 ---
 layout: default
-title: research problem
+title: Research Problem
 ---
 
-# Research Problem: Estimating High-Resolution Weather Metrics from Climate Model Data
+# Estimating High-Resolution Weather Metrics from Climate Model Data
 
 ## Definitions
 
@@ -17,8 +17,6 @@ The goal of this research is to develop a method for producing continuous graphs
 There are existing efforts to "downscale" CMIP6 data using physics-based approaches. In our testing, we have found these still have very poor agreement with current observations. The image below shows this in the case of downscaled CMIP6 data.
 
 ![Charts showing days over 35°C over time for Australian cities](./images/TX_g35.png "Days over 35°C")
-
-{% include image-gallery.html folder="/cmip6_to_agcd/images" %}
 
 ## Problem Statement
 
