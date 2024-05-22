@@ -1,3 +1,8 @@
+---
+layout: default
+title: research problem
+---
+
 # Research Problem: Estimating High-Resolution Weather Metrics from Climate Model Data
 
 ## Definitions
