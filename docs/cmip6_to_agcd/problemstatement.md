@@ -9,7 +9,7 @@
 
 The goal of this research is to develop a method for producing continuous graphs of weather metrics over time, from 1950 to 2100, at a given point in Australia. This involves integrating two datasets of gridded weather data: the Bureau of Meteorology (BoM) Australian Gridded Climate Dataset (AGCD) and the CMIP6 climate model data. The AGCD has a spatial resolution of 0.05 degrees and is derived from interpolating weather observations from 1950 to present. The CMIP6 dataset, on the other hand, simulates the climate under various emissions scenarios from 2015 to 2100 and has a spatial resolution of approximately 0.25 degrees.
 
-There are existing efforts to "downscale" CMIP6 data using physics-based approaches. In our testing, we have found these still have very poor agreement with current observations.
+There are existing efforts to "downscale" CMIP6 data using physics-based approaches. In our testing, we have found these still have very poor agreement with current observations. The image below shows this in the case of downscaled CMIP6 data.
 
 ![Charts showing days over 35°C over time for Australian cities](./images/TX_g35.png "Days over 35°C")
 
