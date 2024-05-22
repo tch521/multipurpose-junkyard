@@ -1,8 +1,3 @@
----
-layout: page
-title: "CMIP6 to AGCD"
----
-
 # Research Problem: Estimating High-Resolution Weather Metrics from Climate Model Data
 
 ## Definitions
