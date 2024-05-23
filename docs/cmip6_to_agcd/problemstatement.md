@@ -35,7 +35,7 @@ In theory, they should produce a version of the CMIP6 data that is almost the sa
 One might therefore expect this downscaled data to have a reasonably good agreement with current observations.
 However, in our testing, we have not found this to be the case, as illustrated in the image below for a number of Australian cities.
 
-![Charts showing days over 35°C over time for Australian cities](./images/TX_g35.png "Days over 35°C")
+![Charts showing days over 35°C over time for Australian cities](./images/TX_g35.png)
 
 - [CDD](./images/CDD.png)
 - [CWD](./images/CWD.png)
