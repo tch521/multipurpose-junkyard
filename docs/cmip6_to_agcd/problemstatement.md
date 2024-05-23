@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Research Problem
+title: Climatics Research Problem
+permalink: /climatics-research-problem
 ---
 
 # Estimating High-Resolution Weather Metrics from Climate Model Data
@@ -8,19 +9,42 @@ title: Research Problem
 ## Definitions
 
 - **Variable:** A simple weather observation such as daily maximum temperature or daily total precipitation.
-- **Metric:** A derived measure based on variables, such as "the average number of days per year where the maximum temperature exceeds 40°C" or "the average number of days per year with more than 10mm of rainfall." More complex metrics include heatwaves,  and Standard Precipitation Index (SPI) statistics.
+- **Metric:** A derived measure based on variables, such as "the average number of days per year where the maximum temperature exceeds 40°C" or "the average number of days per year with more than 10mm of rainfall." 
+More complex metrics include the annual average number of continuous wet days (>1mm), heatwaves intensity/frequency (using BoM definition), and Standard Precipitation Index (SPI) statistics.
 
 ## Introduction
 
-The goal of this research is to develop a method for producing continuous graphs of weather metrics over time, from 1950 to 2100, at a given point in Australia. This involves integrating two datasets of gridded weather data: the Bureau of Meteorology (BoM) Australian Gridded Climate Dataset (AGCD) and the CMIP6 climate model data. The AGCD has a spatial resolution of 0.05 degrees and is derived from interpolating weather observations from 1950 to present. The CMIP6 dataset, on the other hand, simulates the climate under various emissions scenarios from 2015 to 2100 and has a spatial resolution of approximately 0.25 degrees.
+The goal of this research is to develop a method for producing continuous graphs of weather metrics over time, from 1950 to 2100, at a given point in Australia. 
+This involves integrating two datasets of gridded weather data: the Bureau of Meteorology (BoM) Australian Gridded Climate Dataset (AGCD) and the CMIP6 climate model data. 
+The AGCD has a spatial resolution of 0.05 degrees and is derived from interpolating weather observations from 1950 to present. 
+The CMIP6 dataset, on the other hand, simulates the climate under various emissions scenarios from 2015 to 2100 and has a spatial resolution of approximately 0.25 degrees. 
+This spatial relationship is illustrated below.
 
-There are existing efforts to "downscale" CMIP6 data using physics-based approaches. In our testing, we have found these still have very poor agreement with current observations. The image below shows this in the case of downscaled CMIP6 data.
+![Diagram showing the relationship between a CMIP6 "pixel"and the 25 corresponding AGCD "pixels"](./images/c2a_pixel_comparison.svg)
+
+The nature of CMIP6 climate models means that while there is data for 2015 onward, this data does not match the observed day-to-day weather. 
+It is only attempting to represent the general climate. 
+To explain by way of example: while a CMIP6 temperature at a given point on a given day in 2015 should not be expected to match what was observed, the average temperature for a region over the 2015 to 2024 period should match what was observed. 
+To explain by way of metaphor:
+
+> The CMIP6 climate models allow us to peer into the future, albeit with extremely blurry vision, like looking through fogged glass.
+> This picture of the future is blurred not just spatially, but (unlike fogged glass) also temporally.
+
+There are existing efforts to "downscale" CMIP6 data using physics-based approaches, which a complex and computationally intensive. 
+In theory, they should produce a version of the CMIP6 data that is almost the same spatial resolution as the AGCD data.
+One might therefore expect this downscaled data to have a reasonably good agreement with current observations.
+However, in our testing, we have not found this to be the case, as illustrated in the image below for a number of Australian cities.
 
 ![Charts showing days over 35°C over time for Australian cities](./images/TX_g35.png "Days over 35°C")
 
+- [CDD](./images/CDD.png)
+- [CWD](./images/CWD.png)
+
 ## Problem Statement
 
- Whenever plotting metric values over time, a significant challenge arises from the discrepancy between the historical AGCD data and the CMIP6 model data, leading to a discontinuity at the transition year (2024). This is primarily due to the different spatial resolutions of the datasets; the larger area covered by CMIP6 pixels tends to average out extreme values, which is problematic for our focus on weather extremes. While this information is fundamentally not present in the climate models, we hope to artificially reconstruct it using some kind of mathematical model with the CMIP6 data (and potentially some other relevant data) as exogenous variables and the AGCD variable or specific metrics as the endogenous variables.
+ Whenever plotting metric values over time, a significant challenge arises from the discrepancy between the historical AGCD data and the CMIP6 model data, leading to a discontinuity at the transition year (2024). 
+ This is primarily due to the different spatial resolutions of the datasets; the larger area covered by CMIP6 pixels tends to average out extreme values, which is problematic for our focus on weather extremes. 
+ While this information is fundamentally not present in the climate models, we hope to artificially reconstruct it using some kind of mathematical model with the CMIP6 data (and potentially some other relevant data) as exogenous variables and the AGCD variable or specific metrics as the endogenous variables.
 
 ## Methodological Approaches
 
@@ -47,4 +71,5 @@ There are existing efforts to "downscale" CMIP6 data using physics-based approac
 
 ## Conclusion
 
-The research aims to develop a method to estimate high-resolution weather metrics from CMIP6 data, providing a seamless transition from historical AGCD observations. This involves addressing spatial resolution discrepancies and ensuring the preservation of weather extremes, with the ultimate goal of producing reliable and continuous weather metric graphs over an extended period.
+The research aims to develop a method to estimate high-resolution weather metrics from CMIP6 data, providing a seamless transition from historical AGCD observations. 
+This involves addressing spatial resolution discrepancies and ensuring the preservation of weather extremes, with the ultimate goal of producing reliable and continuous weather metric graphs over an extended period.
