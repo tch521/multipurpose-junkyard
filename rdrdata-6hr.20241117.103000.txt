@@ -1,0 +1,30 @@
+2024/11/17 20:49 AEST
+2024/11/17 10:30,NSW,Southern Tablelands (Goulburn-Monaro),JoppaJunction-Queanbeyan,JoppaJunction-Queanbeyan 240-260,JoppaJunction-Queanbeyan 240-260,-34.9592,149.6472,26.05,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Bowenfels-Dubbo,Bowenfels-Dubbo 220-240,Bowenfels-Dubbo 220-240,-33.4538,149.6706,13.90,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Wallerawang-Kandos,Wallerawang-Kandos 200-220,Wallerawang-Kandos 200-220,-33.1291,149.9897,18.55,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Bowenfels-Dubbo,Bowenfels-Dubbo 260-280,Bowenfels-Dubbo 260-280,-33.5633,149.3857,22.65,311000000
+2024/11/17 10:30,NSW,Southern Tablelands (Goulburn-Monaro),JoppaJunction-Queanbeyan,JoppaJunction-Queanbeyan 300-320,JoppaJunction-Queanbeyan 300-320,-35.3350,149.3333,13.80,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Bowenfels-Dubbo,Bowenfels-Dubbo 180-200,Bowenfels-Dubbo 180-200,-33.5084,149.9735,23.40,311000000
+2024/11/17 10:30,NSW,Southern Tablelands (Goulburn-Monaro),JoppaJunction-Queanbeyan,JoppaJunction-Queanbeyan 280-300,JoppaJunction-Queanbeyan 280-300,-35.2388,149.4815,13.50,311000000
+2024/11/17 10:30,NSW,Central Western Slopes (S),Orange-Parkes,Orange-Parkes 321-340,Orange-Parkes 321-340,-33.2820,149.0270,10.05,311000000
+2024/11/17 10:30,NSW,Central Western Slopes (S),Bowenfels-Dubbo,Bowenfels-Dubbo 440-460,Bowenfels-Dubbo 440-460,-32.3025,148.7136,16.15,311000000
+2024/11/17 10:30,NSW,Central Western Slopes (S),Bowenfels-Dubbo,Bowenfels-Dubbo 420-440,Bowenfels-Dubbo 420-440,-32.4212,148.8603,12.90,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Bowenfels-Dubbo,Bowenfels-Dubbo 300-320,Bowenfels-Dubbo 300-320,-33.3901,149.1465,11.25,311000000
+2024/11/17 10:30,NSW,Central Western Plains (N),TroyJunction-Coonamble,TroyJunction-Coonamble 520-540,TroyJunction-Coonamble 520-540,-31.6732,148.6280,14.95,311000000
+2024/11/17 10:30,NSW,Central Tablelands (N),Bowenfels-Dubbo,Bowenfels-Dubbo 380-400,Bowenfels-Dubbo 380-400,-32.7175,149.0368,11.20,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Bowenfels-Dubbo,Bowenfels-Dubbo 160-180,Bowenfels-Dubbo 160-180,-33.4299,150.0795,23.45,311000000
+2024/11/17 10:30,NSW,Southern Tablelands (Goulburn-Monaro),JoppaJunction-Queanbeyan,JoppaJunction-Queanbeyan 260-280,JoppaJunction-Queanbeyan 260-280,-35.1269,149.6147,30.70,311000000
+2024/11/17 10:30,NSW,Central Western Plains (N),TroyJunction-Coonamble,TroyJunction-Coonamble 500-520,TroyJunction-Coonamble 500-520,-31.8465,148.6513,25.05,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Bowenfels-Dubbo,Bowenfels-Dubbo 200-220,Bowenfels-Dubbo 200-220,-33.5216,149.8135,23.45,311000000
+2024/11/17 10:30,NSW,Central Western Slopes (S),TroyJunction-Coonamble,TroyJunction-Coonamble 466.231-480,TroyJunction-Coonamble 466.231-480,-32.1574,148.6374,29.85,311000000
+2024/11/17 10:30,NSW,Southern Tablelands (Goulburn-Monaro),JoppaJunction-Queanbeyan,JoppaJunction-Queanbeyan 320-322,JoppaJunction-Queanbeyan 320-322,-35.3401,149.2314,12.80,311000000
+2024/11/17 10:30,NSW,Southern Tablelands (Goulburn-Monaro),Queanbeyan-Canberra,Queanbeyan-Canberra 323.5-329,Queanbeyan-Canberra 323.5-329,-35.3333,149.1797,12.95,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Bowenfels-Dubbo,Bowenfels-Dubbo 280-300,Bowenfels-Dubbo 280-300,-33.5218,149.2566,22.65,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Wallerawang-Kandos,Wallerawang-Kandos 180-200,Wallerawang-Kandos 180-200,-33.2855,150.0103,20.00,311000000
+2024/11/17 10:30,NSW,Central Western Slopes (S),TroyJunction-Coonamble,TroyJunction-Coonamble 480-500,TroyJunction-Coonamble 480-500,-32.0156,148.6435,22.30,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Bowenfels-Dubbo,Bowenfels-Dubbo 240-260,Bowenfels-Dubbo 240-260,-33.4924,149.5273,13.30,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Wallerawang-Kandos,Wallerawang-Kandos 172.5-180,Wallerawang-Kandos 172.5-180,-33.3884,150.0259,17.70,311000000
+2024/11/17 10:30,NSW,Southern Tablelands (Goulburn-Monaro),JoppaJunction-Queanbeyan,JoppaJunction-Queanbeyan 230.61-240,JoppaJunction-Queanbeyan 230.61-240,-34.8293,149.6609,26.85,311000000
+2024/11/17 10:30,NSW,Central Western Slopes (S),Bowenfels-Dubbo,Bowenfels-Dubbo 460-460.89,Bowenfels-Dubbo 460-460.89,-32.2486,148.6267,15.05,311000000
+2024/11/17 10:30,NSW,Central Tablelands (S),Bowenfels-Dubbo,Bowenfels-Dubbo 158.8-160,Bowenfels-Dubbo 158.8-160,-33.4714,150.1261,24.45,311000000
+2024/11/17 10:30,NSW,Central Tablelands (N),Bowenfels-Dubbo,Bowenfels-Dubbo 400-420,Bowenfels-Dubbo 400-420,-32.5690,148.9509,12.20,311000000
